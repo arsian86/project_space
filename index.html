@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>todolist</title>
+		<!-- <link rel="stylesheet" href="style.css" /> -->
+	</head>
+	<body>
+		<!-- 主容器，包裹整個應用 -->
+		<div class="container">
+			<h1>todolist</h1>
+
+			<!-- 輸入區域：用來新增待辦事項 -->
+			<div class="input-container">
+				<input type="text" id="to-do-input" placeholder="輸入待辦事項" />
+				<button id="add-btn">新增</button>
+			</div>
+
+			<!-- 顯示待辦事項列表 -->
+			<ol id="to-do-list"></ol>
+
+			<!-- 清空所有待辦事項的按鈕 -->
+			<button id="clear-all-btn">Clear All</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
