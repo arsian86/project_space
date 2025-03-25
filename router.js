@@ -2,10 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { v4: uuidv4 } = require("uuid");
 
-const todos = [
-	{ title: "brush teeth", id: uuidv4() },
-	{ title: "do laundry", id: uuidv4() },
-];
+const todos = [];
 const headers = {
 	"Access-Control-Allow-Headers":
 		"Content-Type, Authorization, Content-Length, X-Requested-With",
